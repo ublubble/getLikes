@@ -9,7 +9,7 @@ const client = axios.create({
     validateStatus: () => true
 });
 
-const PORT = process.env.PORT || 0.0.0.0;
+const PORT = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
   res.send('hello world')
